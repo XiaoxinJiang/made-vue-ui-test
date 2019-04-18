@@ -1,0 +1,51 @@
+.pg-index {
+  .index-container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+    p{
+      margin-top: 56px;
+      color: #189A98;
+      font-size: 32px;
+    }
+  }
+  .index-contain{
+    position: relative;
+    height: 300px;
+    .buttom-index{
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      top: 20px;
+      z-index: 9;
+      background: #fff;
+      text-align: center;
+      a {
+        color: #fff;
+        background-image: linear-gradient(90deg, #93EBE9 0%, #29B9B5 100%);
+        box-shadow: 0 2px 6px 0 rgba(64, 220, 216,0.4);
+        display: inline-block;
+        width: 190px;
+        height: 56px;
+        margin: 0 35px;
+        font-size: 18px;
+        line-height: 56px;
+        border-radius: 28px;
+        transition: all .3s;
+        cursor: pointer;
+      }
+    }
+  }
+  .index-contain:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -80px;
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    box-shadow: 0 -4px 30px 0 #DFE1E6;
+    transform: skewY(-4deg);
+  }
+}
